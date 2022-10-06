@@ -1,0 +1,62 @@
+.hero-container {
+    margin-top: 3.75rem;
+    color: black;
+}
+
+.hero-img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.comp-care-text {
+    width: min(100% - 15px, 613px);
+    margin-inline: auto;
+}
+
+.comp-care-card {
+    color: #57558b;
+}
+
+.icon-container {
+    padding: 1.25rem;
+    background: #29c3ec;
+    border-radius: .75rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+}
+
+.mission-card {
+    padding: 2.25rem;
+    border-radius: 1rem;
+    background: #dbf5fc;
+}
+
+.lorem-container {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.lorem-img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem 1rem 0 0;
+}
+
+@media screen and (max-width: 991px) {
+    .hero-container {
+        margin-top: 0;
+    }
+
+    .mission-card {
+        padding: 2.25rem 1rem;
+    }
+
+    .lorem-img {
+        border-radius: 1rem;
+    }
+}

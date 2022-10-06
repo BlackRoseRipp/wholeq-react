@@ -1,0 +1,54 @@
+.navbar {
+  padding: 0;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.navbar-toggler {
+  border: 0;
+  transition: all 220ms linear;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  background: white;
+}
+
+.nav-logo {
+  width: 50%;
+}
+
+.nav-img {
+  width: 50%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.nav-link {
+  color: #313131;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 220ms ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+  color: #0A6AB7;
+}
+
+.nav-link.active {
+  color: #0A6AB7 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-img {
+    width: 100%;
+  }
+}

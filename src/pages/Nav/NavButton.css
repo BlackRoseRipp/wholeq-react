@@ -1,0 +1,20 @@
+.list-btn {
+  padding: .5rem 1rem !important;
+  background: #29C3EC;
+  font-weight: 400;
+  border-radius: .25rem;
+  color: white;
+  transition: all 220ms linear;
+  text-transform: none !important;
+}
+
+.list-btn:hover,
+.list-btn:focus,
+.list-btn.active {
+  background: rgba(41, 195, 236, 0.56) !important;
+  color: white !important;
+}
+
+.nav-icon {
+  font-size: 1rem;
+}
