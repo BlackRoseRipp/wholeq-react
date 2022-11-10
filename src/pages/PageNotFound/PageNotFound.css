@@ -1,12 +1,19 @@
-.undertale-img {
-  width: 40%;
+.img-404 {
+  width: 640px;
+  height: auto;
+}
+
+.banner {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: #dbf5fc;
 }
 
 h1.title-404 {
   font-size: 8rem;
   font-weight: 600;
   padding-top: 2rem;
-  color: #29C3EC;
+  color: black;
   width: fit-content;
   margin: 1rem auto;
 }
@@ -16,7 +23,8 @@ h2 {
   width: fit-content;
   margin: 1rem auto;
   height: auto;
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .message-404 {
