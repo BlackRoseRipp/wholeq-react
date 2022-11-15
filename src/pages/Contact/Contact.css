@@ -1,0 +1,58 @@
+.banner {
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+    background-color: #dbf5fc;
+}
+
+.form-container {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.form-header {
+    color: #29C3EC;
+}
+
+.form-description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.form-container .form-control {
+    border-radius: 0;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 2px solid #ced4da;
+    padding: 0.75rem;
+}
+
+.form-container .form-control:focus {
+    border-top-color: #ced4da;
+    border-left-color: #ced4da;
+    border-right-color: #ced4da;
+    box-shadow: none !important;
+    border-color: #ced4da;
+    outline: 0;
+}
+
+.btn-contact-submit {
+    border-radius: .5rem;
+    border: 0;
+    background: #29C3EC;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.75rem 5rem;
+    transition: all 220ms linear;
+}
+
+.btn-contact-submit:hover,
+.btn-contact-submit:focus {
+    background: rgba(41, 195, 236, 0.56) !important;
+    color: white !important;
+}
+
+.btn-contact-submit:hover {
+    transform: translate(0px, -4px);
+}
